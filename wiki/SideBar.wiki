@@ -2,5 +2,5 @@
 
 Multifit/Polydefix
 
-* [PolydefixWiki Home]
-* [GPLVersion2 Licence]
+ * [PolydefixWiki Home]
+ * [GPLVersion2 Licence]
