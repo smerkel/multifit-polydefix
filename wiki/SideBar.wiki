@@ -1,4 +1,4 @@
 #summary Side bar for the wiki
-
-[PolydefixWiki Home]
-[GPLVersion2 Licence]
+Multifit/Polydefix
+* [PolydefixWiki Home]
+* [GPLVersion2 Licence]
