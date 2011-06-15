@@ -32,6 +32,17 @@ If you want to update the version you have and download the most current version
 
 You can word on your local copy, which should be somewhere in your project tree.
 
+To compile: 
+ * Right click on the project name in the project explorer and select _Define as working directory_. This should be done once.
+ * In the IDL console, type `@build`
+
+This will compile all files and create the sav archive you can run from the IDL virtual machine.
+
+To run from within IDL, 
+ * type `polydefixED` to run polydefixED
+ * type `polydefix` to run polydefix
+ * type `Multifit` to run Multifit
+
 == Upload your changes ==
 
 Only people allowed by me, S. Merkel, will be allowed to upload changes. I am fairly open though, just ask for permission.
