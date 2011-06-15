@@ -39,3 +39,10 @@ Only people allowed by me, S. Merkel, will be allowed to upload changes. I am fa
 Once you feel ready, upload your changes. To do so, right click on the project name and select _Team -> Commit_. In the dialog, leave a comment giving people an idea of what you did. This is mandatory or you will be kicked out of the project.
 
 Last advise: upload your changes often to avoid conflicts with other developers.
+
+== Creating a new branch ==
+
+Once we feel we are ready for a new version, I will create a new "Branch" with the command 
+{{{
+svn copy https://multifit-polydefix.googlecode.com/svn/trunk/Multifit https://multifit-polydefix.googlecode.com/svn/branches/Multifit-X.X -m "Creating version XXX"
+}}}
