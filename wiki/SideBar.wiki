@@ -2,6 +2,6 @@
 
 *Multifit/Polydefix*
 
- * [PolydefixWiki Home]
+ * [http://code.google.com/p/multifit-polydefix/ Home]
  * [DevManual Developer manual]
  * [GPLVersion2 Licence]
