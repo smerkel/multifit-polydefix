@@ -18,6 +18,6 @@ The user manuals for Multifit and Polydefix are located at http://merkel.zoneo.n
 
 == Developer manual ==
 
-Both Multifit and Polydefix are developed using the IDL programming language from the [http://www.ittvis.com/ ITT Visual Information Solutions].
+Both Multifit and Polydefix are developed using the IDL programming language from the [http://www.ittvis.com/ ITT Visual Information Solutions]. The main source code is located here, at Google Code and available to every one.
 
-The main source code is located here, at Google Code.
+More information for helping with Multifit and Polydefix are available on [DevManual those pages]
