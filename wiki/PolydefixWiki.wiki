@@ -1,6 +1,8 @@
-#summary One-sentence summary of this page.
+#summary Main Multifit/Polydefix Page
 
-= Introduction =
+=Multifit/Polydefix=
+
+== Introduction ==
 
 Multifit/Polydefix is a software package originally written to process data obtained in the D-DIA deformation apparatus efficiently. It allows you to decompose 2D diffraction images into azimuthal slices, fit peak positions and intensities, and propagate the results of your fit to other azimuth and images.
 
@@ -10,11 +12,11 @@ Polydefix is for stress and strain analysis. It will start from the output files
 
 Since June 2011, it is free software, licensed under the [GPLVersion2 GPL Version 2].
 
-= User manual =
+== User manual ==
 
 The user manuals for Multifit and Polydefix are located at http://merkel.zoneo.net/RDX/index.php?n=Multifit.Multifit
 
-= Developer manual =
+== Developer manual ==
 
 Both Multifit and Polydefix are developed using the IDL programming language from the [http://www.ittvis.com/ ITT Visual Information Solutions].
 
