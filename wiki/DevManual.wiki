@@ -1,6 +1,8 @@
 #summary Basic developer manual
 
-= Introduction =
+= Multifit/Polydefix Basic Developer Manual =
+
+== Introduction ==
 
 Both Multifit and Polydefix are developed using the IDL programming language from the [http://www.ittvis.com/ ITT Visual Information Solutions]. The main source code is located here, at Google Code and available to every one. 
 
@@ -8,7 +10,7 @@ It is distributed as a package for the IDL virtual machine, which can be downloa
 
 In order to develop and improve Multifit and Polydefix, however, you will need to purchase a license for IDL.
 
-= Getting the code =
+== Getting the code ==
 
 The main codes are located in
  * Multifit: https://multifit-polydefix.googlecode.com/svn/trunk/Multifit
@@ -21,3 +23,19 @@ You can get the codes from within IDL. In IDL
  * Enter the URL, listed above, and give it a label if you wish,
  * Username and password are not necessary to get the code, but will be required if you want to upload your code back.
  * IDL will then copy the current version of Multifit into your working directory. It will show up as a project somewhere in the interface.
+
+== Updating your version ==
+
+If you want to update the version you have and download the most current version, right click on the repository name and select _Checkout_.
+
+== Working on the code ==
+
+You can word on your local copy, which should be somewhere in your project tree.
+
+== Upload your changes ==
+
+Only people allowed by me, S. Merkel, will be allowed to upload changes. I am fairly open though, just ask for permission.
+
+Once you feel ready, upload your changes. To do so, right click on the project name and select _Team -> Commit_. In the dialog, leave a comment giving people an idea of what you did. This is mandatory or you will be kicked out of the project.
+
+Last advise: upload your changes often to avoid conflicts with other developers.
