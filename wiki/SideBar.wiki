@@ -3,4 +3,5 @@
 *Multifit/Polydefix*
 
  * [PolydefixWiki Home]
+ * [DevManual Developer manual]
  * [GPLVersion2 Licence]
