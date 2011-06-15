@@ -8,7 +8,7 @@ Multifit can fit diffraction data. It will extract d-spacings, intensities, and 
 
 Polydefix is for stress and strain analysis. It will start from the output files created in Multifit and extract microscopic strain information from the diffraction images.
 
-Since June 2011, it is free software, licensed under the [GPLVersion2].
+Since June 2011, it is free software, licensed under the [GPLVersion2 GPL Version 2].
 
 = User manual =
 
