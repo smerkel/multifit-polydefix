@@ -22,6 +22,7 @@ You can get the codes from within IDL. In IDL
  * You will see a tab _SVN Repositories_, click on the _New repository location_ icon.
  * Enter the URL, listed above, and give it a label such as _Multifit_, _Polydefix_, or _PolydefixED_,
  * Username and password are not necessary to get the code, but will be required if you want to upload your code back.
+ * In the __SVN Repositories_ view, right click on the project name on the SVN server, select __Checkout___,
  * IDL will then copy the current version of Multifit into your working directory.
  * To start working on your own copy, open the _Project view_ in IDL. What you downloaded will show up as a project with the label you chose earlier.
 
