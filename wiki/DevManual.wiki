@@ -64,7 +64,11 @@ svn commit --username YOUR_USER_NAME   --password YOUR_PASSWORD -m "Tell us what
 }}}
 The `Tell us what you did` section is extremely important. Write a simple text explaining what you did with the code. It is recorded with your upload so other users can understand what you were trying to do.
 
+Last advise: upload your changes often to avoid conflicts with other developers.
+
 == Old instructions ==
+
+[OldDevManual old developer instructions].
 
 You can get the codes from within IDL. In IDL
  * Select the menu item _Window -> Source Control -> Subversion_. It may ask you to install some extension. To be honest, I can't remember which one I chose.
