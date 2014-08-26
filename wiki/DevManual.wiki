@@ -31,7 +31,14 @@ Then, you should download the latest version of the code. For multifit, for inst
 cd ~/IDL
 svn checkout https://multifit-polydefix.googlecode.com/svn/trunk/Multifit
 }}}
-This will create
+This will create a `Multifit` folder within the folder you created.
+
+== Compiling, editing, and playing with the code ==
+
+Now that you downloaded the latest version of the code, you can simply open the files in your favorite text editor. We, here in Lille, use `kate`, one of the KDE text editor. It does have a specific mode for coloring IDL codes (select `Tools -> Highlighting -> Sources -> RSI IDL`).
+
+
+
 
 == Old instructions ==
 
