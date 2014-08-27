@@ -6,7 +6,7 @@
 
 Both Multifit and Polydefix are developed using the IDL programming language from the [http://www.exelisvis.com/ProductsServices/IDL.aspx Exelis]. The main source code is located here, at Google Code and available to every one. 
 
-It is distributed as a package for the [http://www.exelisvis.com/Support/HelpArticlesDetail/TabId/219/ArtMID/900/ArticleID/12395/The-IDL-Virtual-Machine.aspx IDL virtual machine], which can be downloaded for free. There was a change of policy recently and the virtual machine is not so easy to find. Basically, try to create an account and download a trial version of IDL. The trial version of IDL does include the virtual machine. Here is a link with instructions for [http://www.exelisvis.com/Support/HelpArticlesDetail/TabId/219/ArtMID/900/ArticleID/4633/4633.aspx starting a Virtual Machine Application].
+It is distributed as a package for the [http://www.exelisvis.com/Support/HelpArticlesDetail/TabId/219/ArtMID/900/ArticleID/12395/The-IDL-Virtual-Machine.aspx IDL virtual machine], which can be downloaded for free. There was a change of policy recently and the virtual machine is not so easy to find. Basically, try to create an account and download a trial version of IDL. The trial version of IDL does include the virtual machine. Here is a link with instructions for [http://www.exelisvis.com/Support/HelpArticlesDetail/TabId/219/ArtMID/900/ArticleID/4633/4633.aspx starting a virtual machine application].
 
 In order to develop and improve Multifit and Polydefix, however, you will need to purchase a license for IDL.
 
