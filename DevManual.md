@@ -1,0 +1,80 @@
+# Multifit/Polydefix Basic Developer Manual #
+
+## Introduction ##
+
+Both Multifit and Polydefix are developed using the IDL programming language from the [Exelis](http://www.exelisvis.com/ProductsServices/IDL.aspx). The main source code is located here, at Google Code and available to every one.
+
+It is distributed as a package for the [IDL virtual machine](http://www.exelisvis.com/Support/HelpArticlesDetail/TabId/219/ArtMID/900/ArticleID/12395/The-IDL-Virtual-Machine.aspx), which can be downloaded for free. There was a change of policy recently and the virtual machine is not so easy to find. Basically, try to create an account and download a trial version of IDL. The trial version of IDL does include the virtual machine. Here is a link with instructions for [starting a virtual machine application](http://www.exelisvis.com/Support/HelpArticlesDetail/TabId/219/ArtMID/900/ArticleID/4633/4633.aspx).
+
+In order to develop and improve Multifit and Polydefix, however, you will need to purchase a license for IDL.
+
+IDL comes with a complex eclipse-based development environment in a graphical user interface (gui) for editing projects. Over the years the gui became more and more complex. It is a complete overkill for what we are doing here. Moreover, each upgrade of IDL comes with technical issues and, recently, it simply stopped working on my computers. Therefore, I decided to _completely quit using the IDL gui_ for developing applications and develop multifit/polydefix in text mode only. You are welcome to try using the gui if you want, but I will not help you with it.
+
+The instructions below assume you are running linux. If you are on a mac or on windows, instructions should be quite similar. Drop me an email if you have precise instructions I can include here.
+
+## Getting the code ##
+
+The main codes are located in
+  * Multifit: https://multifit-polydefix.googlecode.com/svn/trunk/Multifit
+  * Polydefix: https://multifit-polydefix.googlecode.com/svn/trunk/Polydefix
+  * PolydefixED: https://multifit-polydefix.googlecode.com/svn/trunk/PolydefixED
+
+You should first create a folder for storing a local copy
+```
+mkdir ~/IDL
+```
+
+Then, you should download the latest version of the code. For multifit, for instance
+```
+cd ~/IDL
+svn checkout https://multifit-polydefix.googlecode.com/svn/trunk/Multifit
+```
+This will create a `Multifit` folder within the folder you created.
+
+## Compiling, editing, and playing with the code ##
+
+Now that you downloaded the latest version of the code, you can simply open the files in your favorite text editor. We, here in Lille, use `kate`, one of the KDE text editor. It does have a specific mode for coloring IDL codes (select `Tools -> Highlighting -> Sources -> RSI IDL`).
+
+To compile and run the code, you should move into the folder with your source, start IDL in the command line, and type `@build`:
+```
+cd ~/IDL/Multifit
+idl
+@build
+```
+You can then test your changes by typing
+```
+multifit
+```
+in the command line. It will start the latest version you compiled.
+
+Once you're done, if you want to quit IDL, simply type `exit` in the IDL command line.
+
+I do not recommend the IDL development environment. On the other hand, the online help is extremely helpful. To start the help from the command line, simply type `idlhelp`.
+
+## Exchanging information with the Google servers ##
+
+To download a more recent version of the code from the Google server, open a unix terminal (do not start IDL), move into the folder with the code, and update its content using subversion:
+```
+cd ~/IDL/Multifit
+svn update
+```
+
+Tu upload your changes to the Google servers, open a unix terminal (do not start IDL), move into the folder with the code, and upload your changes using subversion:
+```
+cd ~/IDL/Multifit
+svn commit --username YOUR_USER_NAME   --password YOUR_PASSWORD -m "Tell us what you did"
+```
+The `Tell us what you did` section is extremely important. Write a simple text explaining what you did with the code. It is recorded with your upload so other users can understand what you were trying to do.
+
+Last advise: upload your changes often to avoid conflicts with other developers.
+
+## Old instructions ##
+
+I did keep a copy of our [old developer instructions](OldDevManual.md) as reference. Please, do not follow them.
+
+## Creating a new branch ##
+
+Once we feel we are ready for a new version, I will create a new "Branch" with the command
+```
+svn copy https://multifit-polydefix.googlecode.com/svn/trunk/Multifit https://multifit-polydefix.googlecode.com/svn/branches/Multifit-X.X -m "Creating version XXX"
+```
